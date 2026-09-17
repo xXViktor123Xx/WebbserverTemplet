@@ -18,7 +18,7 @@ def contact():
     return render_template("contact.html")
 
 @app.route("/news")
-def contact():
+def news():
     return render_template("news.html")
 
 
